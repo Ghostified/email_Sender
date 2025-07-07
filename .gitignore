@@ -3,3 +3,4 @@ email_app.py
 simple_calculator.py
 word_replacement.py
 mails.log
+__pycache__/
