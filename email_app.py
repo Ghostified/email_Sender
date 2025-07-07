@@ -10,9 +10,9 @@ email_sender = 'bransonallan@gmail.com'
 email_password = password
 # nprint(email_password)
 
-email_receiver = 'dtb.cards@calltronix.com'
+email_receiver = 'cravtov19002@outlook.com'
 
-subject = "This is a test Email"
+subject = "Frodo Baggins"
 body = """
 The Script Worked!!
 """

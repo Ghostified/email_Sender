@@ -9,7 +9,7 @@ import logging
 
 # Set up logging
 logging.basicConfig(
-    filename='email_research.log',
+    filename='mails.log',
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -17,7 +17,7 @@ logging.basicConfig(
 # Global variables
 email_sender = 'bransonallan@gmail.com'
 email_password = password
-email_receiver = 'dtb.cards@calltronix.com'
+email_receiver = 'cravtov19002@outlook.com'
 
 # Research parameters
 TOTAL_EMAILS = 50
@@ -27,7 +27,7 @@ MIN_DELAY = (TOTAL_TIME_MINUTES * 60) / TOTAL_EMAILS  # Average delay needed bet
 
 def create_email():
     """Create an email message with timestamp for research tracking"""
-    subject = f"Research Email Test #{datetime.now().strftime('%Y%m%d-%H%M%S')}"
+    subject = f"Email Test #{datetime.now().strftime('%Y%m%d-%H%M%S')}"
     body = f"""
     Research Email Sent
     Timestamp: {datetime.now().isoformat()}
