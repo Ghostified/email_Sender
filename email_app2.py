@@ -15,9 +15,9 @@ logging.basicConfig(
 )
 
 # Global variables
-email_sender = 'bransonallan@gmail.com'
+email_sender = 'sender@gmail.com'
 email_password = password
-email_receiver = 'cravtov19002@outlook.com'
+email_receiver = 'receiver@outlook.com'
 
 # Research parameters
 TOTAL_EMAILS = 50
