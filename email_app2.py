@@ -1,4 +1,7 @@
 from app_password import password
+from app_password import sender
+from app_password import receiver
+
 from email.message import EmailMessage
 import ssl
 import smtplib
@@ -15,9 +18,9 @@ logging.basicConfig(
 )
 
 # Global variables
-email_sender = 'sender@gmail.com'
+email_sender = sender
 email_password = password
-email_receiver = 'receiver@outlook.com'
+email_receiver = receiver
 
 # Research parameters
 TOTAL_EMAILS = 50
