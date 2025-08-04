@@ -10,7 +10,7 @@ email_sender = 'bransonallan@gmail.com'
 email_password = password
 # nprint(email_password)
 
-email_receiver = 'cravtov19002@outlook.com'
+email_receiver = 'dtb.cards@calltronix.com'
 
 subject = "Frodo Baggins"
 body = """
