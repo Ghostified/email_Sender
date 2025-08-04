@@ -62,7 +62,7 @@ def send_email(message):
 
 def main():
     """Main routine to send multiple emails over a time window with logging and throttling."""
-    logging.info(f"📤 Starting email test: {TOTAL_EMAILS} emails over {TOTAL_TIME_MINUTES} minutes.")
+    logging.info(f" Starting email test: {TOTAL_EMAILS} emails over {TOTAL_TIME_MINUTES} minutes.")
     
     successful = 0
     failed = 0
@@ -74,15 +74,15 @@ def main():
 
         if result:
             successful += 1
-            logging.info(f"✅ Sent {i+1}/{TOTAL_EMAILS}")
+            logging.info(f" Sent {i+1}/{TOTAL_EMAILS}")
         else:
             failed += 1
-            logging.warning(f"❌ Failed {i+1}/{TOTAL_EMAILS}")
+            logging.warning(f" Failed {i+1}/{TOTAL_EMAILS}")
 
         # Check if time is up
         elapsed = time.time() - start
         if elapsed >= TOTAL_TIME_MINUTES * 60:
-            logging.warning("⏱️ Time limit reached. Stopping early.")
+            logging.warning(" Time limit reached. Stopping early.")
             break
 
         # Sleep if not last iteration
@@ -94,7 +94,7 @@ def main():
     avg = total_time / successful if successful > 0 else 0
 
     logging.info(f"""
-📊 Email Test Summary:
+Email Test Summary:
 Total runtime: {total_time:.2f}s
 Emails Sent: {successful}
 Failures: {failed}
