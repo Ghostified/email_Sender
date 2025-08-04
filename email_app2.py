@@ -28,7 +28,7 @@ def create_email():
     """Generates a complex test email for search-bar or ticketing system testing."""
     timestamp = datetime.now().strftime('%Y%m%d-%H%M%S')
 
-    subject =  f"""Ticket::DTB#20250729.001 | Cust:"John Doe" <john.doe@example.com> | 🔒Login Issue → Reset Failed | Platform: CRMv3.4.2-beta | Status=>Open | ⏱SLA=24hrs | Agent="Jane.Support" | Tags=[#reset, #CRM, urgent?] | Created@2025/07/29 14:35 | ID:REF/CRM-REQ/10891"""
+    subject =  f"Test Mail"
 
 
 
