@@ -28,11 +28,7 @@ def create_email():
     """Generates a complex test email for search-bar or ticketing system testing."""
     timestamp = datetime.now().strftime('%Y%m%d-%H%M%S')
 
-<<<<<<< HEAD
-    subject =  f"Test Mail"
-=======
     subject =  f"Login Failure"
->>>>>>> dev
 
 
 
