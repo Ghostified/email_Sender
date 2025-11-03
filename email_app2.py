@@ -8,8 +8,8 @@ import random
 import logging
 
 # Configuration
-TOTAL_EMAILS = 200
-TOTAL_TIME_MINUTES = 15
+TOTAL_EMAILS = 10
+TOTAL_TIME_MINUTES = 2
 MIN_DELAY = (TOTAL_TIME_MINUTES * 60) / TOTAL_EMAILS  # Average delay between sends
 
 # Logging setup

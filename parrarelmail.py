@@ -13,8 +13,8 @@ import os
 import email.utils
 
 # Configuration
-TOTAL_EMAILS = 10
-TOTAL_TIME_MINUTES = 2
+TOTAL_EMAILS = 15
+TOTAL_TIME_MINUTES = 1
 MIN_DELAY = (TOTAL_TIME_MINUTES * 60) / TOTAL_EMAILS  # Delay in seconds
 MAX_CONCURRENT_SENDS = 5  # Limit parallel threads
 
