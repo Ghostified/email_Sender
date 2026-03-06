@@ -61,7 +61,7 @@ def send_email(message):
 
 
 def main():
-    """Main routine to send multiple emails over a time window with logging and throttling."""
+    """Main routine to send multiple emails over a time window with logginggir ."""
     logging.info(f"📤 Starting email test: {TOTAL_EMAILS} emails over {TOTAL_TIME_MINUTES} minutes.")
     
     successful = 0
